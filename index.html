@@ -13,5 +13,17 @@
     <a href="rock-paper.html" class="game-card"> Rock-Paper-Scissors</a>
     <a href="quiz.html" class="game-card"> Simple Quiz Game</a>
   </div>
+  <button id="toggleMode">Toggle Dark/Light Mode</button>
+<script>
+  const toggleBtn = document.getElementById('toggleMode');
+
+  toggleBtn.addEventListener('click', () => {
+    document.body.classList.toggle('light-mode');
+    console.log("Toggle button clicked");
+  });
+  
+
+</script>
+
 </body>
 </html>
