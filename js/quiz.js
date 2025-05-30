@@ -13,6 +13,11 @@ const quizData = [
     question: "Which is used to add interactivity to a page?",
     options: ["HTML", "CSS", "JavaScript"],
     answer: "JavaScript"
+  },
+  {
+    question: "Which of the following is not a version control system?",
+    options: ["Git","Mercurial","Subversion","Docker"],
+    answer: "Docker"
   }
 ];
 
